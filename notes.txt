@@ -1,0 +1,20 @@
+# DATABASE INSTANCE USING sequelize-cli init
+ 1. config
+ 2. models/index.js 
+
+    what does models/index.js do?
+        - Creates db instance with credentials from config
+        - Adds all models in /models to the db object
+
+
+
+# Prepare the database: sequelize-cli
+/migration structure
+Create Customer(firstname,lastname) table <-> Create Order table <-> Create Item table 
+/ seeders data
+Run adding customers (fullname) x
+
+
+# Running the app: node app.js || nodemon ./app.js localhost 3000
+ In app.js The collected db object methods are used to access data in each endpoint
+    Customer (fullname) x
